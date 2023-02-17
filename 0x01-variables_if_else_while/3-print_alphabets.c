@@ -2,10 +2,9 @@
 /**
  * main - main block
  * Description: print the alphabet in lower case
- * and uppercase, followed by a new line
- * Return: Always 0 (Success)
+ * and uppercase, fllowed by a new line
+ * Return: 0
  */
-
 int main(void)
 {
 	char c = 'a';
@@ -21,7 +20,7 @@ int main(void)
 	{
 		putchar(c);
 		c++;
-
-	putchar('\n');
+	}
+	putcha('\n');
 	return (0);
 }
