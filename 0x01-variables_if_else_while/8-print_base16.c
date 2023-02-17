@@ -10,7 +10,7 @@ int main(void)
 {
 	char miles;
 
-	for (miles = '0'; miles <= '9' miles++)
+	for (miles = '0'; miles <= '9'; miles++)
 	{
 		putchar(miles);
 	}
