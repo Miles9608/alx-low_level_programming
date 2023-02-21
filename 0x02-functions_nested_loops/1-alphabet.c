@@ -1,9 +1,10 @@
 #include "main.h"
 
 /**
+ * main - main block
  * Description: A Function that prints alphabet
  * in lowercase, follewed by a new line.
- * Return: 0
+ * Return: void
  */
 
 void print_alphabet(void)
