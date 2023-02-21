@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * main - main block
- * print_alphabet - Make the alphabet
- * Return: void
+ * print_alphabet - a function that prints the alphabet, in lowercase
+ *
+ * Return: void (Succes)
  */
 void print_alphabet(void)
 {
