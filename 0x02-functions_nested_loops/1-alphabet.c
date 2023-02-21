@@ -2,11 +2,10 @@
 
 /**
  * main - main block
- * Description: A Function that prints alphabet
- * in lowercase, follewed by a new line.
- * Return: void
+ * Description A program that prints
+ * _putchar, followed by a new line.
+ * Return: 0
  */
-
 void print_alphabet(void)
 {
 	char c;
