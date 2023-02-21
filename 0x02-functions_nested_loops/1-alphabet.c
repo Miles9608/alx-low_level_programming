@@ -2,9 +2,9 @@
 
 /**
  * main - main block
- * Description A program that prints
- * _putchar, followed by a new line.
- * Return: 0
+ * Description: A function that prints al[phabet
+ * in lowercase, followed by a new line.
+ * Return: void
  */
 void print_alphabet(void)
 {
