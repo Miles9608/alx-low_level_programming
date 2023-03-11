@@ -1,24 +1,11 @@
 #include "main.h"
-
-/**
- * _isalpha - checks for lowercase character
- *
- * @c: parameter is hard-coded in main function
- *
- * Return: 0 or 1
- */
+#include <stdio.h>
+#include <stdlib.h>
+#include <ctype.h>
+#include <string.h>
 
 int _isalpha(int c)
 {
-	int i;
-
-	if ((c >= 'A' && c <= 'Z') || (c >= 'a' && c <= 'z'))
-	{
-		i = 1;
-	}
-	else
-	{
-		i = 0;
-	}
-	return (i);
+    return isalpha(c);
 }
+

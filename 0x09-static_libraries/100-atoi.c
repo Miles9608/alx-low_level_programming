@@ -1,15 +1,10 @@
-#include "main.h"
-
-/**
- * _atoi - tbd
- *
- * @s: parameter defined in main, pointer to memory
- *
- * Return: 0 for now
- */
-
+#include <stdio.h>
+#include <stdlib.h>
+#include <ctype.h>
+#include <string.h>
 int _atoi(char *s)
+
 {
-	s = s + 1;
-	return (0);
+    return atoi(s);
 }
+
