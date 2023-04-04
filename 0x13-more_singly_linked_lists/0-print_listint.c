@@ -8,14 +8,13 @@
  */
 size_t print_listint(const listint_t *miles)
 {
-    size_t num = 0;
+	size_t num = 0;
 
-    while (miles)
-    {
-        printf("%d\n", miles->n);
-        num++;
-        miles = miles->next;
-    }
-
-    return (num);
+	while (miles)
+	{
+		printf("%d\n", miles->n);
+		num++;
+		miles = miles->next;
+	}
+	return (num);
 }
