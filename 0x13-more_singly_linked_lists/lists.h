@@ -5,12 +5,12 @@
 #include <stdlib.h>
 
 /**
- * struct listint_s - singly linked list
+ * struct listint_s - singular linked list
  * @n: integer
- * @next: points to the next node
+ * @next: shows the nex node
  *
  * Description: singly linked list node structure
- * for Holberton project
+ * for Simbarashe Lungu
  */
 typedef struct listint_s
 {
