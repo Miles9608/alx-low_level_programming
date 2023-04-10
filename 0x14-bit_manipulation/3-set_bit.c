@@ -2,7 +2,7 @@
  * aurthor: Simbarashe Lungu
  * email: simbarashelungu@gmail.com
  */
-#include "mian.h"
+#include "main.h"
 
 /**
  * set_bit - assing bit value tpo 1
