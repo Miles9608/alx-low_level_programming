@@ -1,16 +1,9 @@
-/**
- * aurthor: Simbarashe Lungu
- * email: simbarashelungu@gmail.com
- */
 #include "main.h"
 
 /**
- * set_bit - assing bit value tpo 1
- *
+ * set_bit - Assing bit value to 1
  * @n: long interger
- *
  * @index: unsigned interger
- *
  * Return: Program will return 1 if works -1 on unsuccesful
  */
 
