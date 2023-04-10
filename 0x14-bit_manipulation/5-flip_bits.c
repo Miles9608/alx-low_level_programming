@@ -3,7 +3,8 @@
  * flip_bits - Number of bits you would needed to flip.
  * @n: long interger
  * @m: unsigned interger
- * Return: Returns the value 1 if works -1 on program compilation results failure
+ * Return: Returns the value 1 if works -1 on
+ * program compilation results failure
  */
 
 unsigned int flip_bits(unsigned long int n, unsigned long int m)
