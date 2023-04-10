@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * clear_bit -  Clear_bit assigns the value of a 
+ * clear_bit -  Clear_bit assigns the value of a
  * bit to zero (0) at a given index
  * @n: long interger
  * @index: unsigned interger
