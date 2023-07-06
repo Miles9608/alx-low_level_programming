@@ -1,27 +1,29 @@
 #include "main.h"
 
 /**
- * get_bit - returns bit value at a given
- * index.
- * @n: unsigned long interger input.
- * @index: bit index.
+ * get_bit - Get value of a bit at a given index
  *
- * Return: bit value.
+ * @n: long int
+ *
+ * @index: unsigned int
+ *
+ * Return: Bit at index
  */
+
+
 int get_bit(unsigned long int n, unsigned int index)
 {
-	unsigned int miles;
+	unsigned long int mask = 1;
 
-	if (n == 0 && index < 64)
-		return (0);
-
-	for (miles = 0; miles <= 63; n >>= 1, miles++)
+	if (index > sizeof(n) * 8)
 	{
-		if (index == miles)
-		{
-			return (n & 1);
-		}
+		return (-1);
 	}
 
-	return (-1);
+	mask <<= index;
+
+	if (mask & n)
+		return (1);
+	else
+		return (0);
 }
